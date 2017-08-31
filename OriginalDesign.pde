@@ -8,16 +8,25 @@ void setup()
 
 void draw()
 {
+  table();
   umbrella();
   drink();
+}
+
+
+void table()
+{
+  noStroke();
+  fill(139,110,83);
+  quad(0,350,450,350,450,450,0,450);
 }
 
 void drink()
 {
   noStroke();
-  fill(255,255,134,80);
+  fill(255,255,134,99);
   quad(130,160+z,270,160+z,240,300+z,160,300+z);
-  fill(235,252,252,30);
+  fill(235,252,252,95);
   quad(100,110+z,300,110+z,250,310+z,150,310+z);
 }
 
